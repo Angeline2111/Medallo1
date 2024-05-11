@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+ header{
+    background-image: url("imagenes/fts Pg.principal/ft navegador.png");
+    background-size: 100%;
+    background-attachment: local;
+    background-position: center;
+    box-shadow: 3px 3px 3px 3px rgb(0, 0, 0);
+   
+    
+ }
+
+ .logo img{
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 0px;
+    margin-left: 40px;
+    
+    
+}
+
+nav{
+    display: flex;
+    padding: 15px;
+    
+}
+
+nav a {
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    justify-content: center;
+}
+h1{
+    display: flex;
+    justify-content:space-around;
+    padding: 10px;
+    
+   
+}
+ 
+
+.title{
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    
+    
+      
+}
+
+p{
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.text1{
+    font-weight: bold ;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-bottom: 5px;
+    padding: 40px;
+    
+}
+img{
+    width: 50%;
+    margin: 10px auto;
+    display: flex;
+       
+}
+img .ubicacion{
+    display: flex;
+    justify-content: center;
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.galeria img{
+    width: 30%;
+    border-radius: 20px;
+    
+}
+
+.opciones{
+    margin: 10px;
+    padding: 30px;
+    flex: 60%;  
+    text-align: center;
+    display: flex;
+    justify-content:space-around;
+
+    
+}
+
+.opciones a {
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 15px;
+    box-shadow: 3px 3px 3px 3px rgb(117, 106, 106);
+    font-weight: 900;
+    
+   
+}
+.opciones .n{
+    background-color: rgb(123, 195, 9);
+    color: #000000;
+    
+
+}
+.opciones .c{
+    background-color: rgb(255, 247, 0);
+    color: #000000;
+    
+}
+.opciones .s{
+    background-color: rgb(0, 170, 255);
+    color: #000000;
+    
+   
+}
+.listas{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    
+}    
+
+
+
+.opciones a:hover{
+    background-color: #000000;
+    color: rgb(250, 245, 255);
+    box-shadow: 3px 3px 3px 3px rgb(0, 0, 0)
+}
+
+
+
+footer{
+    background-color: rgb(187, 187, 188);
+    padding: 5px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 3px 3px rgb(0, 0, 0);
+}

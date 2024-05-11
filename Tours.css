@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+ header{
+    background-image: url("imagenes/Tours/biblioteca\ negra.jpg");
+    background-size: 100%;
+    background-attachment: local;
+    background-position: center;
+    box-shadow: 3px 3px 3px 3px rgb(0, 0, 0);
+   
+    
+ }
+
+.logo img{
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 0px;
+    margin-left: 40px;
+    
+    
+}
+
+nav{
+    display: flex;
+    padding: 15px;
+    
+}
+
+nav a {
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    justify-content: center;
+}
+h1{
+    display: flex;
+    justify-content:space-around;
+    padding: 10px;
+    
+   
+}
+ 
+.title{
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    
+    
+      
+}
